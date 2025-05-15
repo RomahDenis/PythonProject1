@@ -5,5 +5,5 @@ def index(request):
     return render(request, 'main/index.html')
 
 def about(request):
-    return HttpResponse("<h4>Pro Nas</h4>")
+    return render(request,'main/about.html')
 
